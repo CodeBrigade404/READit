@@ -1,3 +1,51 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">READit</string>
+    <string name="Login_SignIn">Sign In</string>
+    <string name="Login_subtext1">Please Login to your Account</string>
+    <string name="hint_Username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="Forgot_Password">Forgot Password?</string>
+    <string name="Login_btn">Login</string>
+    <string name="Login_Sign_up">Sign up</string>
+    <string name="or">OR</string>
+    <string name="google">Sign In with Google</string>
+    <string name="Login_Sign_up" tools:ignore="DuplicateDefinition">Sign Up</string>
+    <string name="Dont_have_acc">Dont\'t have an account?</string>
+    <string name="Login_SignUp">Sign Up</string>
+    <string name="reg_SignUp">Sign Up</string>
+    <string name="reg_subtext1">Create a new account</string>
+    <string name="reg_FullName">Full Name</string>
+    <string name="reg_email">Email</string>
+    <string name="reg_Mobile">Mobile</string>
+    <string name="reg_password">Password</string>
+    <string name="reg_Confirm_Password">Confirm Password</string>
+    <string name="reg_have_acc">Already have an account?</string>
+    <string name="otp_header">OTP</string>
+    <string name="otp_subtext">Please enter your code that we have sent to your Email address</string>
+    <string name="otp_email">it21019968@my.sliit.lk</string>
+    <string name="otp_Mobile">Mobile Number</string>
+    <string name="Mobile_no">+94719991761</string>
+    <string name="otp_verify">Verify</string>
+    <string name="resent_otp">Didn\'t receive OTP</string>
+    <string name="Resend_Code">Resend Code(57)</string>
+    <string name="Welcome_to">Welcome to READit</string>
+    <string name="hola">Hola!</string>
+    <string name="continue_without">Continue without Login</string>
+    <string name="quote">Books are the quietest and most constant of friends;
+        they are the most accessible and wisest of counselors, and the most patient of teachers.</string>
+    <string name="account">Account</string>
+    <string name="member">Member</string>
+    <string name="edit">Edit</string>
+    <string name="settings">Settings</string>
+    <string name="profile_name">Minuli Samaraweera</string>
+    <string name="logout">Logout</string>
+    <string name="logouttext">Click here to</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="updateBtn">Update</string>
+    <string name="addImage">Add Image</string>
+    <string name="Account_header">Account</string>
+    <string name="changepwd">Change password</string>
+    <string name="remove">Remove Account</string>
+    <string name="detete">Delete</string>
+
 </resources>

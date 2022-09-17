@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp_Otp">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="34dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/leftarrow"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="254dp"
+        android:layout_height="252dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/otp1"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="-25"
+        android:text="@string/otp_header"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="252dp"
+        android:layout_height="70dp"
+        android:text="@string/otp_subtext"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/otp_email"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otp_Mobile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="@string/Mobile_no"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="497dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="42dp"
+        android:layout_height="44dp"
+        android:background="@drawable/round_back_darkblue1"
+        android:hint="0"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="587dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="42dp"
+        android:layout_height="44dp"
+        android:background="@drawable/round_back_darkblue1"
+        android:hint="0"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="587dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="42dp"
+        android:layout_height="44dp"
+        android:background="@drawable/round_back_darkblue1"
+        android:hint="0"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="587dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="42dp"
+        android:layout_height="44dp"
+        android:background="@drawable/round_back_darkblue1"
+        android:hint="0"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="587dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="93dp"
+        android:layout_height="45dp"
+        android:text="@string/otp_verify"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="660dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resent_otp"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="722dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Resend_Code"
+        android:textColor="@color/purple_500"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="722dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
